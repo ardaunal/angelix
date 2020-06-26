@@ -22,7 +22,7 @@ RUN apt-get -y install git wget xz-utils build-essential \
 
 RUN apt-get install software-properties-common -y --no-install-recommends
 
-RUN git clone --recursive https://github.com/mechtaev/angelix.git --depth 1
+RUN git clone --recursive https://github.com/ardaunal/angelix.git --depth 1
 
 
 RUN apt-get purge icedtea-* openjdk-* -y
